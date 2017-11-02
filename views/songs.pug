@@ -3,3 +3,6 @@ html
     title Songs for #{term}
   body
     h1 Songs for #{term}
+    
+    for song in songs
+      li #{song.trackName}
